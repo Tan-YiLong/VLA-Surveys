@@ -65,11 +65,14 @@ Any problems, please contact tanyilong@csuft.edu.cn. Interesting papers or codes
 
 | Model | Provider | Main Role in AD | Link |
 |:-:|:-:|:-|:-:|
+| `Qwen3.6` | Alibaba | Reasoning, tool use, agentic planning | [Link](https://qwen.ai/research) |
+| `Qwen3.5` | Alibaba | Reasoning, tool use, agentic planning | [Link](https://qwen.ai/research) |
 | `Qwen3` | Alibaba | Reasoning, tool use, agentic planning | [Link](https://qwenlm.github.io/blog/qwen3/) |
 | `Qwen2.5` | Alibaba | General LLM backbone | [Link](https://qwenlm.github.io/blog/qwen2.5/) |
 | `Qwen2.5-Coder` | Alibaba | Code/tool-using driving agents | [Link](https://qwenlm.github.io/blog/qwen2.5-coder/) |
 | `DeepSeek-R1` | DeepSeek | Reasoning-heavy driving agents | [Link](https://github.com/deepseek-ai/DeepSeek-R1) |
 | `DeepSeek-V3.1` | DeepSeek | Hybrid thinking and tool calling | [Link](https://huggingface.co/deepseek-ai/DeepSeek-V3.1) |
+| `DeepSeek-V4` | DeepSeek | Hybrid thinking and tool calling | [Link](https://huggingface.co/deepseek-ai) |
 | `Llama 3.1` | Meta | General open LLM backbone | [Link](https://llama.meta.com/) |
 | `Llama 3.3` | Meta | Stronger open LLM backbone | [Link](https://llama.meta.com/) |
 | `Mistral 7B` | Mistral AI | Efficient LLM baseline | [Link](https://mistral.ai/news/announcing-mistral-7b/) |
@@ -86,9 +89,14 @@ Any problems, please contact tanyilong@csuft.edu.cn. Interesting papers or codes
 
 | Model | Provider | Main Role in AD | Link |
 |:-:|:-:|:-|:-:|
+| `GPT-5.5` | OpenAI | Frontier multimodal/reasoning baseline | [Link](https://platform.openai.com/docs/models) |
+| `GPT-5.4` | OpenAI | Frontier multimodal/reasoning baseline | [Link](https://platform.openai.com/docs/models) |
+| `GPT-5.3` | OpenAI | Frontier multimodal/reasoning baseline | [Link](https://platform.openai.com/docs/models) |
 | `GPT-5.2` | OpenAI | Frontier multimodal/reasoning baseline | [Link](https://platform.openai.com/docs/models) |
 | `GPT-5.1` | OpenAI | Coding, reasoning, and agentic baseline | [Link](https://platform.openai.com/docs/models/gpt) |
 | `GPT-4.1` | OpenAI | Non-reasoning VLM/agent baseline | [Link](https://platform.openai.com/docs/models) |
+| `Claude Opus 4.7` | Anthropic | Strong reasoning and image-input baseline | [Link](https://docs.anthropic.com/en/docs/about-claude/models/all-models) |
+| `Claude Opus 4.6` | Anthropic | Strong reasoning and image-input baseline | [Link](https://docs.anthropic.com/en/docs/about-claude/models/all-models) |
 | `Claude Opus 4.1` | Anthropic | Strong reasoning and image-input baseline | [Link](https://docs.anthropic.com/en/docs/about-claude/models/all-models) |
 | `Claude Sonnet 4` | Anthropic | Efficient reasoning and multimodal baseline | [Link](https://docs.anthropic.com/en/docs/models-overview) |
 | `Gemini 2.5 Pro` | Google | Multimodal reasoning over image/video/code | [Link](https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-pro) |
