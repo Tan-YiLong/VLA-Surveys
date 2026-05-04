@@ -1,5 +1,21 @@
-# :sunglasses:VAL-Surveys
-This is the summation of all the methods, datasets, and other survey mentioned in our survey 'VLA' :fire:. Any problems, please contact tanyilong@csuft.edu.cn. Any other interesting papers or codes are welcome. If you find this repository useful to your research or work, it is really appreciated to star this repository :heart:
+# :sunglasses: Autonomous Driving Decision-Making Across Paradigms
+
+This repository summarizes the methods, datasets, benchmarks, and related surveys mentioned in our survey **"Autonomous Driving Decision-Making Across Paradigms: A Survey of Reasoning, Action, Simulation, and Generation"** :fire:.
+
+The survey organizes autonomous driving decision-making into five paradigms: **LLM/VLM-based driving agents**, **Vision-Action (VA) models**, **Vision-Language-Action (VLA) models**, **Driving World Models (DWMs)**, and **Diffusion-Based Planning Models (DBPMs)**.
+
+Any problems, please contact tanyilong@csuft.edu.cn. Interesting papers or codes are welcome. If this repository is useful to your research or work, it is really appreciated to star this repository :heart:
+
+## Contents
+
+- [1. LLM/VLM-Based Driving Agents](#1-llmvlm-based-driving-agents)
+- [2. Vision-Action Models](#2-vision-action-models)
+- [3. Vision-Language-Action Models](#3-vision-language-action-models)
+- [4. Driving World Models](#4-driving-world-models)
+- [5. Diffusion-Based Planners](#5-diffusion-based-planners)
+- [6. Datasets and Benchmarks](#6-datasets-and-benchmarks)
+
+---
 
 
 ## 1. LLM/VLM-Based Driving Agents
@@ -38,7 +54,40 @@ This is the summation of all the methods, datasets, and other survey mentioned i
 
 ---
 
-## 2. Vision-Language-Action Models
+## 2. Vision-Action Models
+
+| Model | Paper | Venue | Website | GitHub |
+|:-:|:-|:-:|:-:|:-:|
+| `LBC` | Learning by Cheating | CoRL 2020 | - | - |
+| `Latent-DRL` | End-to-End Model-Free Reinforcement Learning for Urban Driving using Implicit Affordances | CVPR 2020 | - | - |
+| `NEAT` | NEAT: Neural Attention Fields for End-to-End Autonomous Driving | ICCV 2021 | - | - |
+| `Roach` | End-to-End Urban Driving by Imitating a Reinforcement Learning Coach | ICCV 2021 | - | - |
+| `WoR` | Learning to Drive from a World on Rails | ICCV 2021 | - | - |
+| `Urban-Driver` | Urban Driver: Learning to Drive from Real-World Demonstrations using Policy Gradients | CoRL 2022 | - | - |
+| `TCP` | Trajectory-Guided Control Prediction for End-to-End Autonomous Driving: A Simple yet Strong Baseline | NeurIPS 2022 | - | - |
+| `LAV` | Learning from All Vehicles | CVPR 2022 | - | - |
+| `TransFuser` | TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving | IEEE TPAMI 2022 | - | - |
+| `GRI` | GRI: General Reinforced Imitation and Its Application to Vision-Based Autonomous Driving | Robotics 2023 | - | - |
+| `BEVPlanner` | Is Ego Status All You Need for Open-Loop End-to-End Autonomous Driving? | CVPR 2024 | - | - |
+| `RAD` | RAD: Training an End-to-End Driving Policy via Large-Scale 3DGS-Based Reinforcement Learning | arXiv 2025 | - | - |
+| `ST-P3` | ST-P3: End-to-End Vision-Based Autonomous Driving via Spatial-Temporal Feature Learning | ECCV 2022 | - | - |
+| `UniAD` | Planning-Oriented Autonomous Driving | CVPR 2023 | - | - |
+| `VAD` | VAD: Vectorized Scene Representation for Efficient Autonomous Driving | CVPR 2023 | - | - |
+| `OccNet` | Scene as Occupancy | ICCV 2023 | - | - |
+| `Hydra-MDP` | Hydra-MDP: End-to-End Multimodal Planning with Multi-Target Hydra-Distillation | arXiv 2024 | - | - |
+| `SparseAD` | SparseAD: Sparse Query-Centric Paradigm for Efficient End-to-End Autonomous Driving | arXiv 2024 | - | - |
+| `GaussianAD` | GaussianAD: Gaussian-Centric End-to-End Autonomous Driving | arXiv 2024 | - | - |
+| `DiFSD` | DiFSD: Ego-Centric Fully Sparse Paradigm with Uncertainty Denoising and Iterative Refinement for Efficient End-to-End Self-Driving | arXiv 2024 | - | - |
+| `DriveTransformer` | DriveTransformer: Unified Transformer for Scalable End-to-End Autonomous Driving | ICLR 2025 | - | - |
+| `SparseDrive` | SparseDrive: End-to-End Autonomous Driving via Sparse Scene Representation | ICRA 2025 | - | - |
+| `ETA` | ETA: Efficiency through Thinking Ahead, A Dual Approach to Self-Driving with Large Models | ICCV 2025 | - | - |
+| `Geo` | Spatial Retrieval Augmented Autonomous Driving | arXiv 2025 | - | - |
+| `NaviHydra` | NaviHydra: Controllable Navigation-Guided End-to-End Autonomous Driving with Hydra-Distillation | arXiv 2025 | - | - |
+
+---
+
+
+## 3. Vision-Language-Action Models
 
 | Model | Paper | Venue | Website | GitHub |
 |:-:|:-|:-:|:-:|:-:|
@@ -86,7 +135,7 @@ This is the summation of all the methods, datasets, and other survey mentioned i
 
 ---
 
-## 3. Driving World Models
+## 4. Driving World Models
 
 | Model | Paper | Venue | Website | GitHub |
 |:-:|:-|:-:|:-:|:-:|
@@ -131,7 +180,7 @@ This is the summation of all the methods, datasets, and other survey mentioned i
 
 ---
 
-## 4. Diffusion-Based Planners
+## 5. Diffusion-Based Planners
 
 | Model | Paper | Venue | Website | GitHub |
 |:-:|:-|:-:|:-:|:-:|
@@ -158,9 +207,9 @@ This is the summation of all the methods, datasets, and other survey mentioned i
 
 
 
-## 5 Datasets and Benchmarks
+## 6 Datasets and Benchmarks
 
-### 5.1 Common Datasets (Sorted by Year)
+### 6.1 Common Datasets (Sorted by Year)
 
 | Dataset | Type | Download | Year | Size |
 |:-:|:-:|:-:|:-:|:-:|
@@ -171,7 +220,7 @@ This is the summation of all the methods, datasets, and other survey mentioned i
 | `Bench2Drive` | Sim | https://github.com/Thinklab-SJTU/Bench2Drive | 2024 | 2M |
 | `NAVSIM` | Real | https://github.com/autonomousvision/navsim | 2024 | - |
 
-### 5.2 Datasets for LLM/VLM-Based Driving Agents (Sorted by Year)
+### 6.2 Datasets for LLM/VLM-Based Driving Agents (Sorted by Year)
 
 | Dataset | Type | Download | Year | Size |
 |:-:|:-:|:-:|:-:|:-:|
@@ -193,7 +242,23 @@ This is the summation of all the methods, datasets, and other survey mentioned i
 | `Impromptu-VLA` | Real+Sim | https://github.com/ahydchh/Impromptu-VLA | 2025 | 80K clips |
 | `OmniDrive` | Real | https://github.com/NVlabs/OmniDrive | 2025 | 200K QA |
 
-### 5.3 Datasets for Vision-Language-Action (VLA) Models (Sorted by Year)
+### 6.3 Datasets for Vision-Action Models
+
+| Dataset | Type | Download | Year | Size |
+|:-:|:-:|:-:|:-:|:-:|
+| `CARLA` | Sim | https://github.com/carla-simulator/carla | 2017 | - |
+| `BDD100K` | Real | https://bdd-data.berkeley.edu/ | 2020 | 100K videos |
+| `nuScenes` | Real | https://www.nuscenes.org/nuscenes | 2020 | 1.4M frames |
+| `Waymo` | Real | https://waymo.com/open/ | 2020 | 200M frames |
+| `Argoverse 2` | Real | https://www.argoverse.org/av2.html | 2021 | 250K scenarios |
+| `Motion` | Real | https://waymo.com/open/data/motion/ | 2021 | - |
+| `nuPlan` | Real | https://www.nuscenes.org/nuplan | 2021 | 4.6M |
+| `Bench2Drive` | Sim | https://github.com/Thinklab-SJTU/Bench2Drive | 2024 | 2M |
+| `NAVSIM` | Real | https://github.com/autonomousvision/navsim | 2024 | - |
+| `RoboBEV` | Real | https://github.com/worldbench/RoboBEV | 2025 | 866K |
+| `WOD-E2E` | Real | https://waymo.com/open/ | 2025 | 800K |
+
+### 6.4 Datasets for Vision-Language-Action (VLA) Models (Sorted by Year)
 
 | Dataset | Type | Download | Year | Size |
 |:-:|:-:|:-:|:-:|:-:|
@@ -210,7 +275,7 @@ This is the summation of all the methods, datasets, and other survey mentioned i
 | `NuInteract` | Real | https://github.com/zc-zhao/drivemonkey | 2025 | 239K images |
 | `DriveAction` | Real | https://huggingface.co/datasets/LiAuto-DriveAction/drive-action | 2025 | 16.18K QA |
 
-### 5.4 Datasets for Driving World Models (Sorted by Year)
+### 6.5 Datasets for Driving World Models (Sorted by Year)
 
 | Dataset | Type | Download | Year | Size |
 |:-:|:-:|:-:|:-:|:-:|
@@ -224,14 +289,14 @@ This is the summation of all the methods, datasets, and other survey mentioned i
 | `RoboBEV` | Real | https://github.com/worldbench/RoboBEV | 2025 | 866K |
 | `WOD-E2E` | Real | https://waymo.com/open/ | 2025 | 800K |
 
-### 5.5 Datasets for Diffusion-Based Planners (Sorted by Year)
+### 6.6 Datasets for Diffusion-Based Planners (Sorted by Year)
 
 | Dataset | Type | Download | Year | Size |
 |:-:|:-:|:-:|:-:|:-:|
 | `CARLA` | Sim | https://github.com/carla-simulator/carla | 2017 | - |
 | `nuScenes` | Real | https://www.nuscenes.org/nuscenes | 2020 | 1.4M |
 | `Waymo` | Real | https://waymo.com/open/ | 2020 | 200M |
-| `nuPlan` | Real | https://www.nuscenes.org/nuplan | 2021 | 4.6M |
+| `nuPlan` | Real | https://www.nuscenes.org/nuplan | 2021 | 4.6M |    
 | `Motion` | Real | https://waymo.com/open/data/motion/ | 2021 | - |
 | `Bench2Drive` | Sim | https://github.com/Thinklab-SJTU/Bench2Drive | 2024 | 2M |
 | `NAVSIM` | Real | https://github.com/autonomousvision/navsim | 2024 | - |
