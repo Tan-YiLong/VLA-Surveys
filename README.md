@@ -58,33 +58,31 @@ Any problems, please contact tanyilong@csuft.edu.cn. Interesting papers or codes
 
 | Model | Paper | Venue | Website | GitHub |
 |:-:|:-|:-:|:-:|:-:|
-| `LBC` | Learning by Cheating | CoRL 2020 | - | - |
-| `Latent-DRL` | End-to-End Model-Free Reinforcement Learning for Urban Driving using Implicit Affordances | CVPR 2020 | - | - |
-| `NEAT` | NEAT: Neural Attention Fields for End-to-End Autonomous Driving | ICCV 2021 | - | - |
-| `Roach` | End-to-End Urban Driving by Imitating a Reinforcement Learning Coach | ICCV 2021 | - | - |
-| `WoR` | Learning to Drive from a World on Rails | ICCV 2021 | - | - |
-| `Urban-Driver` | Urban Driver: Learning to Drive from Real-World Demonstrations using Policy Gradients | CoRL 2022 | - | - |
-| `TCP` | Trajectory-Guided Control Prediction for End-to-End Autonomous Driving: A Simple yet Strong Baseline | NeurIPS 2022 | - | - |
-| `LAV` | Learning from All Vehicles | CVPR 2022 | - | - |
-| `TransFuser` | TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving | IEEE TPAMI 2022 | - | - |
-| `GRI` | GRI: General Reinforced Imitation and Its Application to Vision-Based Autonomous Driving | Robotics 2023 | - | - |
-| `BEVPlanner` | Is Ego Status All You Need for Open-Loop End-to-End Autonomous Driving? | CVPR 2024 | - | - |
-| `RAD` | RAD: Training an End-to-End Driving Policy via Large-Scale 3DGS-Based Reinforcement Learning | arXiv 2025 | - | - |
-| `ST-P3` | ST-P3: End-to-End Vision-Based Autonomous Driving via Spatial-Temporal Feature Learning | ECCV 2022 | - | - |
-| `UniAD` | Planning-Oriented Autonomous Driving | CVPR 2023 | - | - |
-| `VAD` | VAD: Vectorized Scene Representation for Efficient Autonomous Driving | CVPR 2023 | - | - |
-| `OccNet` | Scene as Occupancy | ICCV 2023 | - | - |
-| `Hydra-MDP` | Hydra-MDP: End-to-End Multimodal Planning with Multi-Target Hydra-Distillation | arXiv 2024 | - | - |
-| `SparseAD` | SparseAD: Sparse Query-Centric Paradigm for Efficient End-to-End Autonomous Driving | arXiv 2024 | - | - |
-| `GaussianAD` | GaussianAD: Gaussian-Centric End-to-End Autonomous Driving | arXiv 2024 | - | - |
-| `DiFSD` | DiFSD: Ego-Centric Fully Sparse Paradigm with Uncertainty Denoising and Iterative Refinement for Efficient End-to-End Self-Driving | arXiv 2024 | - | - |
-| `DriveTransformer` | DriveTransformer: Unified Transformer for Scalable End-to-End Autonomous Driving | ICLR 2025 | - | - |
-| `SparseDrive` | SparseDrive: End-to-End Autonomous Driving via Sparse Scene Representation | ICRA 2025 | - | - |
-| `ETA` | ETA: Efficiency through Thinking Ahead, A Dual Approach to Self-Driving with Large Models | ICCV 2025 | - | - |
-| `Geo` | Spatial Retrieval Augmented Autonomous Driving | arXiv 2025 | - | - |
-| `NaviHydra` | NaviHydra: Controllable Navigation-Guided End-to-End Autonomous Driving with Hydra-Distillation | arXiv 2025 | - | - |
-
----
+| `LBC` | [Learning by Cheating](https://arxiv.org/abs/1912.12294) | CoRL 2020 | - | [![GitHub](https://img.shields.io/github/stars/bradyz/2020_CARLA_challenge)](https://github.com/bradyz/2020_CARLA_challenge) |
+| `Latent-DRL` | [End-to-End Model-Free Reinforcement Learning for Urban Driving using Implicit Affordances](https://arxiv.org/abs/2006.08126) | CVPR 2020 | - | - |
+| `NEAT` | [NEAT: Neural Attention Fields for End-to-End Autonomous Driving](https://arxiv.org/abs/2109.04456) | ICCV 2021 | - | [![GitHub](https://img.shields.io/github/stars/autonomousvision/neat)](https://github.com/autonomousvision/neat) |
+| `Roach` | [End-to-End Urban Driving by Imitating a Reinforcement Learning Coach](https://arxiv.org/abs/2108.08265) | ICCV 2021 | - | [![GitHub](https://img.shields.io/github/stars/zhejz/carla-roach)](https://github.com/zhejz/carla-roach) |
+| `WoR` | [Learning to Drive from a World on Rails](https://arxiv.org/abs/2105.00636) | ICCV 2021 | - | - |
+| `Urban-Driver` | [Urban Driver: Learning to Drive from Real-World Demonstrations using Policy Gradients](https://arxiv.org/abs/2109.13333) | CoRL 2022 | - | - |
+| `TCP` | [Trajectory-Guided Control Prediction for End-to-End Autonomous Driving: A Simple yet Strong Baseline](https://arxiv.org/abs/2206.08129) | NeurIPS 2022 | - | [![GitHub](https://img.shields.io/github/stars/OpenDriveLab/TCP)](https://github.com/OpenDriveLab/TCP) |
+| `LAV` | [Learning from All Vehicles](https://arxiv.org/abs/2202.02605) | CVPR 2022 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://dotchen.github.io/LAV/) | [![GitHub](https://img.shields.io/github/stars/dotchen/LAV)](https://github.com/dotchen/LAV) |
+| `TransFuser` | [TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving](https://arxiv.org/abs/2205.15997) | IEEE TPAMI 2022 | - | [![GitHub](https://img.shields.io/github/stars/autonomousvision/transfuser)](https://github.com/autonomousvision/transfuser) |
+| `GRI` | [GRI: General Reinforced Imitation and Its Application to Vision-Based Autonomous Driving](https://www.mdpi.com/2218-6581/12/5/127) | Robotics 2023 | - | - |
+| `BEVPlanner` | [Is Ego Status All You Need for Open-Loop End-to-End Autonomous Driving?](https://arxiv.org/abs/2312.03031) | CVPR 2024 | - | [![GitHub](https://img.shields.io/github/stars/NVlabs/BEV-Planner)](https://github.com/NVlabs/BEV-Planner) |
+| `RAD` | [RAD: Training an End-to-End Driving Policy via Large-Scale 3DGS-Based Reinforcement Learning](https://arxiv.org/abs/2502.13144) | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://hgao-cv.github.io/RAD) | - |
+| `ST-P3` | [ST-P3: End-to-End Vision-Based Autonomous Driving via Spatial-Temporal Feature Learning](https://arxiv.org/abs/2207.07601) | ECCV 2022 | - | [![GitHub](https://img.shields.io/github/stars/OpenDriveLab/ST-P3)](https://github.com/OpenDriveLab/ST-P3) |
+| `UniAD` | [Planning-Oriented Autonomous Driving](https://arxiv.org/abs/2212.10156) | CVPR 2023 | - | [![GitHub](https://img.shields.io/github/stars/OpenDriveLab/UniAD)](https://github.com/OpenDriveLab/UniAD) |
+| `VAD` | [VAD: Vectorized Scene Representation for Efficient Autonomous Driving](https://arxiv.org/abs/2303.12077) | ICCV 2023 | - | [![GitHub](https://img.shields.io/github/stars/hustvl/VAD)](https://github.com/hustvl/VAD) |
+| `OccNet` | [Scene as Occupancy](https://arxiv.org/abs/2306.09242) | ICCV 2023 | - | [![GitHub](https://img.shields.io/github/stars/OpenDriveLab/OccNet)](https://github.com/OpenDriveLab/OccNet) |
+| `Hydra-MDP` | [Hydra-MDP: End-to-End Multimodal Planning with Multi-Target Hydra-Distillation](https://arxiv.org/abs/2406.06978) | arXiv 2024 | - | - |
+| `SparseAD` | [SparseAD: Sparse Query-Centric Paradigm for Efficient End-to-End Autonomous Driving](https://arxiv.org/abs/2404.06892) | arXiv 2024 | - | - |
+| `GaussianAD` | [GaussianAD: Gaussian-Centric End-to-End Autonomous Driving](https://arxiv.org/abs/2412.10371) | arXiv 2024 | - | - |
+| `DiFSD` | [DiFSD: Ego-Centric Fully Sparse Paradigm with Uncertainty Denoising and Iterative Refinement for Efficient End-to-End Self-Driving](https://arxiv.org/abs/2409.09777) | arXiv 2024 | - | - |
+| `DriveTransformer` | [DriveTransformer: Unified Transformer for Scalable End-to-End Autonomous Driving](https://arxiv.org/abs/2503.07656) | ICLR 2025 | - | [![GitHub](https://img.shields.io/github/stars/Thinklab-SJTU/DriveTransformer)](https://github.com/Thinklab-SJTU/DriveTransformer) |
+| `SparseDrive` | [SparseDrive: End-to-End Autonomous Driving via Sparse Scene Representation](https://arxiv.org/abs/2405.19620) | ICRA 2025 | - | [![GitHub](https://img.shields.io/github/stars/swc-17/SparseDrive)](https://github.com/swc-17/SparseDrive) |
+| `ETA` | [ETA: Efficiency through Thinking Ahead, A Dual Approach to Self-Driving with Large Models](https://arxiv.org/abs/2506.07725) | ICCV 2025 | - | [![GitHub](https://img.shields.io/github/stars/OpenDriveLab/ETA)](https://github.com/OpenDriveLab/ETA) |
+| `Geo` | [Spatial Retrieval Augmented Autonomous Driving](https://arxiv.org/abs/2503.09517) | arXiv 2025 | - | - |
+| `NaviHydra` | [NaviHydra: Controllable Navigation-Guided End-to-End Autonomous Driving with Hydra-Distillation](https://arxiv.org/abs/2512.10660) | arXiv 2025 | - | - |
 
 
 ## 3. Vision-Language-Action Models
