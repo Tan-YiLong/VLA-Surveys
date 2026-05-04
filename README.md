@@ -6,6 +6,98 @@ The survey organizes autonomous driving decision-making into five paradigms: **L
 
 Any problems, please contact tanyilong@csuft.edu.cn. Interesting papers or codes are welcome. If this repository is useful to your research or work, it is really appreciated to star this repository :heart:
 
+## Foundation Models Used in Autonomous Driving
+
+### Autonomous-Driving-Specialized Models
+
+| Model | Paradigm | Main Role | Link |
+|:-:|:-:|:-|:-:|
+| `DiLu` | LLM Agent | Knowledge-driven driving reasoning | [Paper](https://arxiv.org/abs/2309.16292) |
+| `Agent-Driver` | LLM Agent | Language-agent planning | [Paper](https://arxiv.org/abs/2311.10813) |
+| `DriveGPT4` | LLM/VLM Agent | Interpretable driving reasoning and planning | [Paper](https://arxiv.org/abs/2310.01412) / [Project](https://tonyxuqaq.github.io/projects/DriveGPT4/) |
+| `Dolphins` | VLM Agent | Multimodal driving understanding | [Paper](https://arxiv.org/abs/2312.00432) / [Project](https://vlm-driver.github.io/) |
+| `DriveMLM` | MLLM Agent | Behavior-state aligned planning | [Paper](https://arxiv.org/abs/2312.09245) |
+| `LMDrive` | VLA | Closed-loop language-conditioned driving | [Paper](https://arxiv.org/abs/2312.07488) |
+| `DriveVLM` | VLA | Large VLM-based end-to-end driving | [Paper](https://arxiv.org/abs/2402.12289) / [Project](https://tsinghua-mars-lab.github.io/DriveVLM/) / [GitHub](https://github.com/hanker-zhu/DriveVLM-project) |
+| `RDA-Driver` | LLM/VLM Agent | Reasoning-decision alignment | [Paper](https://arxiv.org/abs/2409.07246) |
+| `VLAAD` | VLM Assistant | Vision-language driving assistance | [GitHub](https://github.com/sungyeonparkk/vision-assistant-for-driving) |
+| `WiseAD` | VLM/VLA | Knowledge-augmented end-to-end driving | [Paper](https://arxiv.org/abs/2412.09644) / [Project](https://wyddmw.github.io/WiseAD_demo/) / [GitHub](https://github.com/wyddmw/WiseAD) |
+| `OpenEMMA` | VLM/VLA-style E2E | Open-source multimodal planning | [Paper](https://arxiv.org/abs/2412.15208) / [GitHub](https://github.com/taco-group/OpenEMMA) |
+| `EMMA` | Multimodal E2E | End-to-end multimodal driving model | [Paper](https://arxiv.org/abs/2410.23262) |
+| `ORION` | VLA | Vision-language instructed action generation | [Paper](https://arxiv.org/abs/2503.19755) / [GitHub](https://github.com/xiaomi-mlab/Orion) |
+| `AlphaDrive` | VLA/RL | Reinforcement learning and reasoning | [Paper](https://arxiv.org/abs/2503.07608) / [GitHub](https://github.com/hustvl/AlphaDrive) |
+| `OpenDriveVLA` | VLA | Open large VLA for end-to-end driving | [Paper](https://arxiv.org/abs/2503.23463) / [Project](https://drivevla.github.io/) / [GitHub](https://github.com/DriveVLA/OpenDriveVLA) |
+| `AutoVLA` | VLA/RL | Adaptive reasoning and action tokenization | [Paper](https://arxiv.org/abs/2506.13757) / [Project](https://autovla.github.io/) / [GitHub](https://github.com/ucla-mobility/AutoVLA) |
+| `Drive-R1` | VLA/RL | Reasoning-planning bridge for VLM driving | [Paper](https://arxiv.org/abs/2506.18234) |
+| `DriveAgent-R1` | VLM Agent | Active perception and hybrid thinking | [OpenReview](https://openreview.net/forum?id=r2g8TV4nJy) / [ICLR](https://iclr.cc/virtual/2026/poster/10007182) |
+| `OmniReason` | VLA | Temporal-guided action reasoning | [Paper](https://arxiv.org/abs/2509.00789) |
+| `OpenREAD` | VLA/RL | Open-ended reasoning with LLM-as-critic | [Paper](https://arxiv.org/abs/2512.01830) |
+| `Reasoning-VLA` | VLA | Fast general action reasoning | [Paper](https://arxiv.org/abs/2511.19912) / [HF Paper](https://huggingface.co/papers/2511.19912) |
+| `MindDrive` | VLA/RL | Online RL with language-as-action | [Paper](https://arxiv.org/abs/2512.13636) / [Project](https://xiaomi-mlab.github.io/MindDrive/) / [GitHub](https://github.com/xiaomi-mlab/MindDrive) |
+| `DynVLA` | VLA/World Dynamics | Dynamics-aware action reasoning | [Project](https://yaoyao-jpg.github.io/dynvla/) |
+| `VLAWorld` | VLA World Model | Vision-language-action world modeling | [Project](https://vlaworld.github.io/) |
+
+### Open Vision-Language and Multimodal Backbones
+
+| Model | Provider | Main Role in AD | Link |
+|:-:|:-:|:-|:-:|
+| `Qwen-VL` | Alibaba | Early open VLM backbone | [Link](https://huggingface.co/Qwen/Qwen-VL) |
+| `Qwen2-VL` | Alibaba | Multimodal perception and VQA | [Link](https://qwenlm.github.io/blog/qwen2-vl/) |
+| `Qwen2.5-VL` | Alibaba | Strong VLM backbone for driving agents and VLA | [Link](https://qwenlm.github.io/blog/qwen2.5-vl/) |
+| `Qwen2.5-VL-32B` | Alibaba | Larger VLM reasoning backbone | [Link](https://qwenlm.github.io/blog/qwen2.5-vl-32b/) |
+| `DeepSeek-VL` | DeepSeek | Vision-language understanding | [Link](https://huggingface.co/collections/deepseek-ai/deepseek-vl-65f295948133d9cf92b706d3) |
+| `InternVL2` | OpenGVLab | Open multimodal driving perception backbone | [Link](https://github.com/OpenGVLab/InternVL) |
+| `InternVL3` | OpenGVLab | Advanced open VLM backbone | [Link](https://github.com/OpenGVLab/InternVL) |
+| `InternVL3.5` | OpenGVLab | Multimodal reasoning and embodied-agent backbone | [Link](https://internvl.github.io/blog/2025-08-26-InternVL-3.5/) / [GitHub](https://github.com/OpenGVLab/InternVL) |
+| `LLaVA-1.5` | LLaVA | VLM baseline for driving QA and reasoning | [Link](https://github.com/haotian-liu/LLaVA) |
+| `LLaVA-NeXT` | LLaVA | Higher-resolution VLM reasoning | [Link](https://github.com/LLaVA-VL/LLaVA-NeXT) |
+| `LLaVA-OneVision` | LLaVA | Image-video-language backbone | [Link](https://github.com/LLaVA-VL/LLaVA-NeXT) |
+| `Yi-VL` | 01-ai | Bilingual VLM backbone | [Link](https://huggingface.co/collections/01-ai/yi-vl-663f557228538eae745769f3) |
+| `CogVLM2` | Zhipu AI / THUDM | Vision-language reasoning backbone | [Link](https://huggingface.co/collections/THUDM/cogvlm2-6645f36a29948b67dc4eef75) |
+| `MiniCPM-V` | OpenBMB | Lightweight edge-friendly VLM | [Link](https://github.com/OpenBMB/MiniCPM-V) |
+| `Phi-4-multimodal` | Microsoft | Lightweight multimodal reasoning | [Link](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) |
+| `Gemma 3` | Google | Open multimodal model for text-image reasoning | [Link](https://blog.google/technology/developers/gemma-3/) |
+| `Llama 3.2 Vision` | Meta | Open vision-language backbone | [Link](https://llama.meta.com/) |
+| `Pixtral 12B` | Mistral AI | Open multimodal model | [Link](https://mistral.ai/news/pixtral-12b) |
+| `Pixtral Large` | Mistral AI | Larger multimodal model | [Link](https://legal.mistral.ai/ai-governance/models/pixtral-large) |
+
+### Open Language and Reasoning Backbones
+
+| Model | Provider | Main Role in AD | Link |
+|:-:|:-:|:-|:-:|
+| `Qwen3` | Alibaba | Reasoning, tool use, agentic planning | [Link](https://qwenlm.github.io/blog/qwen3/) |
+| `Qwen2.5` | Alibaba | General LLM backbone | [Link](https://qwenlm.github.io/blog/qwen2.5/) |
+| `Qwen2.5-Coder` | Alibaba | Code/tool-using driving agents | [Link](https://qwenlm.github.io/blog/qwen2.5-coder/) |
+| `DeepSeek-R1` | DeepSeek | Reasoning-heavy driving agents | [Link](https://github.com/deepseek-ai/DeepSeek-R1) |
+| `DeepSeek-V3.1` | DeepSeek | Hybrid thinking and tool calling | [Link](https://huggingface.co/deepseek-ai/DeepSeek-V3.1) |
+| `Llama 3.1` | Meta | General open LLM backbone | [Link](https://llama.meta.com/) |
+| `Llama 3.3` | Meta | Stronger open LLM backbone | [Link](https://llama.meta.com/) |
+| `Mistral 7B` | Mistral AI | Efficient LLM baseline | [Link](https://mistral.ai/news/announcing-mistral-7b/) |
+| `Mixtral-8x7B` | Mistral AI | Sparse MoE reasoning baseline | [Link](https://mistral.ai/news/mixtral-of-experts/) |
+| `Mixtral-8x22B` | Mistral AI | Larger sparse MoE backbone | [Link](https://mistral.ai/news/mixtral-8x22b/) |
+| `Codestral` | Mistral AI | Code and tool-use backbone | [Link](https://mistral.ai/news/codestral/) |
+| `Phi-4-mini-reasoning` | Microsoft | Small reasoning backbone | [Link](https://huggingface.co/microsoft) |
+| `InternLM2` | Shanghai AI Laboratory | General open LLM backbone | [Link](https://huggingface.co/collections/internlm/internlm2-65b0ce04970888799707893c) |
+| `GLM-4` | Zhipu AI | General and tool-using LLM backbone | [Link](https://github.com/THUDM/GLM-4) |
+| `Yi-1.5` | 01-ai | General bilingual LLM backbone | [Link](https://huggingface.co/collections/01-ai/yi-15-2024-05-663f3ecab5f815a3eaca7ca8) |
+| `OLMo` | AllenAI | Fully open research LLM | [Link](https://huggingface.co/collections/allenai/olmo-suite-65aeaae8fe5b6b2122b46778) |
+
+### Closed-Source Models Commonly Used as Strong Baselines
+
+| Model | Provider | Main Role in AD | Link |
+|:-:|:-:|:-|:-:|
+| `GPT-5.2` | OpenAI | Frontier multimodal/reasoning baseline | [Link](https://platform.openai.com/docs/models) |
+| `GPT-5.1` | OpenAI | Coding, reasoning, and agentic baseline | [Link](https://platform.openai.com/docs/models/gpt) |
+| `GPT-4.1` | OpenAI | Non-reasoning VLM/agent baseline | [Link](https://platform.openai.com/docs/models) |
+| `Claude Opus 4.1` | Anthropic | Strong reasoning and image-input baseline | [Link](https://docs.anthropic.com/en/docs/about-claude/models/all-models) |
+| `Claude Sonnet 4` | Anthropic | Efficient reasoning and multimodal baseline | [Link](https://docs.anthropic.com/en/docs/models-overview) |
+| `Gemini 2.5 Pro` | Google | Multimodal reasoning over image/video/code | [Link](https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-pro) |
+| `Gemini 2.5 Flash` | Google | Efficient multimodal reasoning baseline | [Link](https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini) |
+| `Grok 4` | xAI | Closed multimodal/reasoning baseline | [Link](https://docs.oracle.com/en-us/iaas/Content/generative-ai/xai-grok-4.htm) |
+| `Mistral Large` | Mistral AI | Closed/API LLM baseline | [Link](https://www.aboutamazon.com/news/aws/mistral-ai-mistral-large-amazon-bedrock) |
+| `Pixtral Large` | Mistral AI | Closed/API multimodal baseline | [Link](https://www.aboutamazon.com/news/aws/aws-mistral-ai-pixtral-large) |
+
+
 ## Contents
 
 - [1. LLM/VLM-Based Driving Agents](#1-llmvlm-based-driving-agents)
